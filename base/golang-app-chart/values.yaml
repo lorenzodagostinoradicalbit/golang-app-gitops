@@ -1,10 +1,14 @@
-app:  
+app:
+# Common values
   imageName: lorenzodagostinorad/go-example
-  imageTag: latest
-  replica: 1
   service:
     internalPort: 3000
-  resources: {}
 
+# Envs specific values
+  imageTag: latest
+  replica: 1
+  resources: {}
+  
 service:
+# Envs specific values
   type: ClusterIP

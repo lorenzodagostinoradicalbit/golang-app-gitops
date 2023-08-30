@@ -1,7 +1,6 @@
-app:  
+app:
   replica: 1
   imageTag: latest
-  service:
   resources:
     requests:
       memory: "64Mi"

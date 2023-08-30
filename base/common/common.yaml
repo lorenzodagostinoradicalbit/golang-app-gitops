@@ -1,0 +1,6 @@
+app:
+  imageName: lorenzodagostinorad/go-example
+  service:
+    internalPort: 3000
+
+service:

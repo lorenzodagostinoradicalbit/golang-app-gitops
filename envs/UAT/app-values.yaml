@@ -1,4 +1,4 @@
-app:  
+app: 
   replica: 1
   imageTag: latest
   resources:
