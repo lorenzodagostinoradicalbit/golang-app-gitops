@@ -1,0 +1,10 @@
+app:  
+  imageName: lorenzodagostinorad/go-example
+  imageTag: latest
+  replica: 1
+  service:
+    internalPort: 3000
+  resources: {}
+
+service:
+  type: ClusterIP
